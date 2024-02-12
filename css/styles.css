@@ -147,6 +147,11 @@ body {
     margin-left: 164px;
 }
 
+.hero__img {
+    display: flex;
+    background: url(../img/nike.png);
+}
+
 /* advantages */
 
 .advantages {
@@ -157,6 +162,7 @@ body {
 }
 
 .advantages__list {
+    display: flex;
     border: 5px solid rgb(142, 50, 198);
     justify-content: space-between;
     flex-wrap: wrap;
@@ -164,7 +170,7 @@ body {
 
 .advantages__item {
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: space-between;
     align-items: center;
 }
