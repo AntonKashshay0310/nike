@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     outline: solid 1px red;
@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-    background-image: url(../img/nike.png);
+    
     margin-right: 152px;
     width: 90px;
     height: 40px;
@@ -35,14 +35,14 @@ body {
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+
     gap: 29px;
 }
 
 .nav__item {}
 
 .nav__link {
-    font-family: 'Roboto';
+    
     font-size: 24px;
     font-weight: 300;
     line-height: 28px;
@@ -59,10 +59,21 @@ body {
     margin-left: 73px;
 }
 
-.language__item {}
+.language__item {
+    
+  color:rgb(220, 220, 220) ;  
+margin-right: 10px;
+}
+
+.language__item2 {
+    
+    color: 
+    rgb(255, 255, 255)
+   ;
+}
 
 .language__link {
-    font-family: 'Roboto';
+   
     font-size: 24px;
     font-weight: 300;
     line-height: 28px;
@@ -81,7 +92,7 @@ body {
     display: flex;
     height: 858px;
     background: url(../img/group37.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
@@ -123,7 +134,6 @@ body {
 
 .hero__text {
     color: rgb(255, 255, 255);
-    font-family: 'Roboto';
     width: 508px;
     height: 84px;
     font-size: 18px;
