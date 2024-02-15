@@ -168,7 +168,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   padding: 105px 0;
+    padding: 105px 0;
 
 }
 
@@ -303,3 +303,32 @@ body {
     box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
 
+
+/* order */
+
+.order {
+    height: 509px;
+    background-image: url(../img/group21.jpg);
+    background-size: cover;
+}
+
+.order__text {
+ 
+    padding: 21px 535px 35px;
+    width: 130px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+
+.footer__form {
+}
+.foooter__form__label {
+    padding: ;
+}
+.footer__form__input {
+}
