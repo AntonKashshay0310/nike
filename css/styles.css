@@ -325,10 +325,33 @@ body {
 }
 
 
-.footer__form {
+.order__form {
+ display: flex;
+ flex-direction: column;
+ 
 }
-.foooter__form__label {
-    padding: ;
+.order__form__label:nth-child(1) {
+display: flex;
+    margin-top: 33px;
+    border-radius: 50px;
+    width: 690px;
+background: rgb(255, 255, 255);
 }
-.footer__form__input {
+
+.order__form__label {
+    display: flex;
+    margin-top: 33px;
+    border-radius: 50px;
+    width: 580px;
+background: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.order__form__input {
+
 }
